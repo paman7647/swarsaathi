@@ -1,0 +1,43 @@
+# OS Caches & System Files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+core/.env
+core/.env.local
+web/.env
+web/.env.local
+
+# Python Backend
+core/__pycache__/
+core/.pytest_cache/
+core/.venv/
+core/venv/
+core/env/
+core/ENV/
+*.py[cod]
+*$py.class
+
+# Local Databases, Logs & SQLite
+core/data/
+*.db
+*.db-journal
+*.log
+core/data/chat_history.txt
+core/data/voice_bot.db
+
+# Node Frontend
+web/node_modules/
+web/dist/
+web/.eslintcache
+web/npm-debug.log*
+web/yarn-debug.log*
+web/yarn-error.log*
+web/.pnpm-debug.log*
